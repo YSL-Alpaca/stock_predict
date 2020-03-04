@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#main{
+    width: 100%;
+}
+
+#info{
+    width: 30%;
+    background-color: lightblue;
+    margin: 2vw auto;
+    text-align: center;
+}
+#info form p{
+    font-size: 2vw;
+}
+#info form input{
+    width: 80%;
+    margin: 0 0 2vw 0;
+    font-size: 1.3vw;
+    padding: 0.7vw 0.7vw;
+    border-radius: 5px;
+}
+.login_button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}

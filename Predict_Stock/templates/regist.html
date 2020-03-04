@@ -3,8 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>注册</title>
+    <link rel="stylesheet" href="../static/css/all.css">
+    <link rel="stylesheet" href="../static/css/regist.css">
 </head>
 <body>
-
+<header>
+    <div>
+        <img class="back_img" src="../static/imgs/1.jpeg" alt="背景图">
+        <div class="rt reg_log">
+            <a href="./login.html">登录</a>
+            <span>/</span>
+            <a href="./regist.html">注册</a>
+        </div>
+    </div>
+</header>
+<div id="main">
+    <div id="info">
+        <div>
+            <p>欢迎注册</p>
+        </div>
+        <form action="" method="post">
+            <input type="text" placeholder="3-12字符">
+            <span>用户名</span>
+            <input type="password" placeholder="6-18个字符">
+            <span>输入密码</span>
+            <input type="password" placeholder="6-18个字符">
+            <span>确认密码</span>
+            <input type="text" placeholder="11位数字">
+            <span>手机号</span>
+            <input id="button" type="button" value="注册" class="regist_button" style="width: 85%;font-size: 1.5vw">
+        </form>
+    </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+#main{
+    width: 100%;
+}
+
+#info{
+    width: 40%;
+    background-color: lightblue;
+    margin: 2vw auto;
+}
+#info div{
+    text-align: center;
+}
+#info div p{
+    font-size: 2vw;
+}
+#info form input{
+    width: 60%;
+    margin: 0 1vw 2vw 3vw;
+    font-size: 1.3vw;
+    padding: 0.7vw 0.7vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#info form span{
+    font-size: 1.3vw;
+}
+#button:hover{
+    background: indianred;
+    outline: none;
+}
+#button:focus{
+    outline: none;
+}
+.regist_button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
