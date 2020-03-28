@@ -3,15 +3,20 @@
 #main {
     text-align: center;
 }
-.main_out{
+
+.back_all{
     width: 80%;
+    margin:0 auto;
+}
+.main_out{
+    width: 100%;
     background-color: lightcyan;
-    min-height: 500px;
+    /*min-height: 500px;*/
     margin: -4vw auto 0;
     position: relative;
 }
 #main div p{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-weight: bold;
     color: indianred;
 }
@@ -27,47 +32,132 @@
 #code{
     width: 95%;
     font-size: 1.5vw;
-    color: black;
+    color: indianred;
+    opacity: 0.7;
 }
-#sub{
+#submit{
     width: 100%;
     font-size: 1.2vw;
     cursor: pointer;
     background-color: white;
     font-weight: bold;
+    padding: 0.3vw;
+    border-radius: 5px;
+    color: indianred;
 }
-#sub:hover{
+#submit:hover{
     color: white;
     background-color: indianred;
 }
 
-#all_k{
-    width: 50%;
+#k_line{
+    width: 60%;
     min-height: 500px;
-    background-color: lightblue;
     margin: 0 1vw 2vw 2vw;
 }
-#all_k p{
+#k_line p{
     margin: 0;
 }
 #re_k{
-    width: 30%;
+    width: 20%;
     min-height: 500px;
-    background-color: lightblue;
+    background-color: rgb(235,238,240);
     margin: 0 0 2vw 0;
+    opacity: 0.8;
 }
 #blin{
-    width: 50%;
+    width: 60%;
     min-height: 500px;
-    background-color: lightblue;
     margin: 0 2vw 2vw 2vw;
 }
 #blin p{
     margin: 0;
 }
 #re_blin{
-    width: 30%;
+    width: 20%;
     min-height: 500px;
-    background-color: lightblue;
+    background-color: rgb(235,238,240);
     margin: 0 0 2vw 0;
+    opacity: 0.8;
+}
+
+.hide{
+    display: none;
+}
+
+.title{
+    color: black;
+    font-size: 1.4vw;
+    float: left;
+    width: 60%;
+    text-align: left;
+    margin: 0.6vw 0;
+}
+.value{
+    color: red;
+    font-size: 1.2vw;
+    float: left;
+    width: 40%;
+    text-align: right;
+    margin: 0.6vw 0;
+}
+.stock_info{
+    margin: 1.4vw;
+
+}
+.analyze_title{
+    font-size: 1.4vw;
+    margin: 1.4vw;
+    color: indianred;
+    font-weight: bold;
+}
+.analyze_text{
+    font-size: 1.2vw;
+    color: indianred;
+    margin: 1.4vw;
+    text-align: left;
+    font-weight: bold;
+}
+.introduce_title{
+    font-size: 1.4vw;
+    color: black;
+    margin-bottom: 0;
+}
+.introduce_text{
+    color: black;
+    font-size: 1vw;
+    line-height: 25px;
+}
+/*---------------底部--------------*/
+.bottom{
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+}
+.bottom_back{
+    width: 100%;
+    float: left;
+    background-color: dodgerblue;
+}
+.tip{
+    width: 100%;
+    margin: 1.4vw auto 0;
+    font-size: 1vw;
+    font-weight: bolder;
+}
+.forward{
+    width: 100%;
+    margin: 1.4vw auto 0;
+    font-size: 1vw;
+    font-weight: bolder;
+}
+.friend{
+    width: 100%;
+    margin: 1.4vw auto 0;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    color: black;
+}
+.friend a{
+    color: indianred;
 }

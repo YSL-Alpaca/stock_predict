@@ -42,6 +42,28 @@ a:focus {
     top: 2vw;
     right: 2vw;
 }
+#log_but{
+    cursor: pointer;
+}
+#reg_but{
+    cursor: pointer;
+}
+
 header div div a{
     color: white;
+}
+.is_login{
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+}
+#user{
+    cursor: pointer;
+}
+#exit_but{
+    cursor: pointer;
+    color: indianred;
 }

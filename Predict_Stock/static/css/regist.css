@@ -4,18 +4,18 @@
     width: 100%;
 }
 
-#info{
+.register{
     width: 40%;
     background-color: lightblue;
     margin: 2vw auto;
 }
-#info div{
+.register div{
     text-align: center;
 }
-#info div p{
+.register div p{
     font-size: 2vw;
 }
-#info form input{
+.register form input{
     width: 60%;
     margin: 0 1vw 2vw 3vw;
     font-size: 1.3vw;
@@ -23,7 +23,7 @@
     border-radius: 5px;
     cursor: pointer;
 }
-#info form span{
+.register form span{
     font-size: 1.3vw;
 }
 #button:hover{
